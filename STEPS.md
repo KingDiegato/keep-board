@@ -1,0 +1,3 @@
+- [x] init react app
+- [x] install eslint
+- [x] Hacer el CRUD
