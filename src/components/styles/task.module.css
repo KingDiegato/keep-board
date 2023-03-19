@@ -1,0 +1,50 @@
+.list {
+	list-style: none;
+	cursor: pointer;
+	padding: 0;
+	margin: 12px;
+}
+.list_item {
+	list-style: none;
+	cursor: pointer;
+	padding: 10px;
+	box-shadow: 1px 2px 3px rgba(28, 28, 28, 0.529);
+	margin: 12px;
+}
+.list_title {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.list_description {
+	font-size: 16px;
+}
+
+.submit {
+	display: flex;
+	flex-direction: column;
+	margin: 12px;
+	gap: 10px;
+}
+
+.input {
+	background-color: transparent;
+	border-color: transparent;
+	width: 80vw;
+	height: 2rem;
+	color: white;
+}
+
+.input::placeholder {
+	font-size: 18px;
+	justify-items: baseline;
+}
+
+.input:target {
+	border: none;
+}
+
+.button_create {
+	background-color: #09f;
+	color: white;
+}
